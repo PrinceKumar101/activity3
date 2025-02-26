@@ -1,0 +1,42 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-size: larger;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+.section1, .section2{
+    box-shadow: gray;
+    z-index: 5;
+    width: 600px;
+    padding: auto;
+    padding-left: 2%;
+
+
+}
+.section1>div{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    box-shadow:   gray;
+    padding: 5px;
+}
